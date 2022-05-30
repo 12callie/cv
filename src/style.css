@@ -1,4 +1,4 @@
-*, *::after, *::before{
+ *, *::after, *::before{
     margin: 0;padding: 0;box-sizing: border-box;
 }
 
@@ -10,6 +10,7 @@ a{
     color: #999;
     border-bottom: 1px solid;
 }
+
 p, li {
       color: #666;
 }
@@ -21,23 +22,24 @@ h2{
     padding: 2px 0 2px 8px;
     background-color: rgb(246,246,246);
 }
+
 body{
     background-color: #eee;
-    margin: 20px 0;
+    margin: 20px auto;
+    width: 21cm;
+    height: 29.7cm;
 }
 @media print {
     body{
         margin: 0;
     }
 }
+
 article{
-    width: 21cm;
-    height: 29.7cm;
     background-color: white;
-    margin: 0 auto;
-    overflow: auto;
     padding: 1em;
 }
+
 .heading-background{
     display: flex;
 }
