@@ -1,0 +1,147 @@
+*, *::after, *::before{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+ol, ul{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color: #999;
+    border-bottom: 1px solid;
+}
+p, li {
+      color: #666;
+}
+p {
+    margin: .3em 0;
+  }
+h2{
+    margin: 24px 0 12px 0;
+    padding: 2px 0 2px 8px;
+    background-color: rgb(246,246,246);
+}
+body{
+    background-color: #eee;
+    margin: 20px 0;
+}
+@media print {
+    body{
+        margin: 0;
+    }
+}
+article{
+    width: 21cm;
+    height: 29.7cm;
+    background-color: white;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 1em;
+}
+.heading-background{
+    display: flex;
+}
+.heading-background > .space{
+    width: 6px;
+    background-color: rgb(255,153,22);
+    margin: 24px 0 12px 0;
+}
+.heading-background > h2{
+    width: 100%;
+}
+
+
+
+
+
+
+.bio{
+    position: relative;
+}
+
+.bio > .personal-information{
+    position: absolute;
+    top: 0;
+    left: 126px;
+}
+.bio h1{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+
+
+.projects{}
+.projects > ol > li{
+    margin-bottom: 16px;
+}
+.projects > ol > li:last-child{
+    margin-bottom: 0;
+}
+
+.projects header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.skills{}
+
+.skills>.wrapper>li {
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+
+
+.openSource{}
+
+.openSource li {
+    margin-bottom: 16px;
+}
+.openSource li:last-child {
+    margin-bottom: 0;
+}
+.openSource header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.jobs{}
+.jobs > ol > li {
+    margin-bottom: 16px;
+}
+.jobs > ol > li:last-child {
+    margin-bottom: 0;
+}
+.jobs header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.jobs ul>li{
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+
+
+.others{}
+.others ul li{
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
