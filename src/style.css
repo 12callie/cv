@@ -33,6 +33,10 @@ body{
     body{
         margin: 0;
     }
+    .jobs {
+        page-break-before: always;
+        margin-top: 30px;
+      }
 }
 
 article{
@@ -136,7 +140,22 @@ article{
 }
 
 
-
+@media (max-width: 500px) {
+    body{
+        margin: 0;
+        width: auto;
+        height: auto;
+    }
+    .bio img {
+        display: none;
+    }
+    .bio > .personal-information{
+        position:static;
+    }
+    .jobs>ol header {
+        flex-direction: column;
+    }
+}
 
 
 
